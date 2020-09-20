@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <meta http-equiv="content" content="text/html">
+        <meta charset="utf-8">
+        <title>S.A HTML</title>
+
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
+
+    <body>
+        <h2>Faça login</h2>
+        <div>
+        <table align="center">
+            <tr>
+                <td>
+                    <fieldset id="login">
+                        <legend>Digite seus dados</legend>
+                    
+                        <form action="enviar.php" method="post" name="CadastroCliente">
+                            <table cellpadding="5">
+                                
+                                <tr>
+                                    <td>
+                                        <label for="nome">Login:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite seu login."/>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="nome">Senha:</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite sua senha (letras e números)."/>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label for="email">E-mail:</label>
+                                    </td>
+                                    <td>
+                                        <input type="email" id="email" name="email" size="40" maxlength="50" placeholder="Digite seu e-mail."/>
+                                    </td>
+                               <tr>
+                                    <th colspan="2">
+                                        <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+                                        <input type="reset" id="limpar" name="limpar" value="LIMPAR"/>
+                                    </th>
+                                </tr>
+                            </table>
+                        </fieldset>   
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Cadastre-se</h2>
+        <br>
+        
+        <table align="center">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Digite seus dados</legend>
+                    
+                        <form action="enviar.php" method="post" name="CadastroCliente">
+                            <table cellpadding="5">
+                                <tr>
+                                    <td>
+                                        <label for="nome">Nome:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite seu nome."/>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="nome">Login:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite seu login."/>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="nome">Senha:</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite sua senha (letras e números)."/>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label for="email">E-mail:</label>
+                                    </td>
+                                    <td>
+                                        <input type="email" id="email" name="email" size="40" maxlength="50" placeholder="Digite seu e-mail."/>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="email">Confirme seu E-mail:</label>
+                                    </td>
+                                    <td>
+                                        <input type="email" id="email" name="email" size="40" maxlength="50" placeholder="Confirme seu e-mail."/>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label for="cel">Celular:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="cel" name="cel" size="10" maxlength="13" placeholder="(xx) xxxx-xxxx"/>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label for="nasc">Data de Nascimento:</label>
+                                    </td>
+                                    <td>
+                                        <input type="date" id="nasc" name="nasc" size="40"/>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label>Sexo:</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="sexo" name="sexo" value="Masculino"/>
+                                        <label for="Sexo">Masculino</label>
+                
+                                        <input type="radio" id="sexo" name="sexo" value="Feminino"/>
+                                        <label for="Sexo">Feminino</label>
+                
+                                        <input type="radio" id="sexo" name="sexo" value="Outros"/>
+                                        <label for="Sexo">Outros</label>
+                                    </td>
+                                </tr>
+                
+                                <tr>
+                                    <td>
+                                        <label>Endereço:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="endereço" name="endereço" size="40" placeholder="Digite seu endereço."/>
+                                        <br>
+                
+                                        <input type="text" id="endereço" name="endereço" size="5" placeholder="Nº"/>
+                                        <br>
+                
+                                        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP."/>
+                                        
+                                        <select id="logradouro" name="logradouro">
+                                            <option value="" selected="select">---Logradouro---</option>
+                                            <option value="Rua">Rua</option>
+                                            <option value="Avenida">Avenida</option>
+                                            <option value="Condomínio">Condomínio</option>
+                                            <option value="Quadra">Quadra</option>
+                                            <option value="Via">Via</option>
+                                            <option value="Viela">Viela</option>
+                                        </select>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="2">
+                                        <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+                                        <input type="reset" id="limpar" name="limpar" value="LIMPAR"/>
+                                    </th>
+                                </tr>
+                            </table>
+                        </fieldset>   
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <br>
+        </div>
+        <hr color="#DAA520">
+        
+            <p id="rodape">KING OF PARTS ATACADO E VAREJO DE PRODUTOS DE AUTO PEÇAS LTDA</p>
+            <p id="rodape">CNPJ: 00.000.000/0000-00 | Belo Horizonte-MG</p>
+            <p id="rodape">ATENDIMENTO</p>
+            <p id="rodape">De segunda a sexta das 8:30 às 12H / 13H às 18H</p>
+    </body>
+</html>
