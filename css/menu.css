@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+table {
+    text-align: left;
+    line-height: 10px;
+}
+
+.menu {
+    margin: auto;
+}
+
+#home {
+    padding-right: 200px;
+    padding-left: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#peças {
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+#acessorios {
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+#quemsomos {
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+#login {
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+#carros {
+    padding-right: 100px;
+    font-size: 25px;
+}

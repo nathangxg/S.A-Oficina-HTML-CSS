@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+    background-color: #1C1C1C;
+}
+
+#lamborghini {
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 500px;
+}
+
+#especlamborghini {
+    color: white;
+    margin: auto;
+    font-size: 25px;
+}
+
+.lamborghini {
+    margin: auto;
+}

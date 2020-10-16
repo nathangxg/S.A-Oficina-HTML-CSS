@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    background-color: #1C1C1C;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #DAA520;
+}
+
+p {
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+#rodape {
+    text-align: center;
+}
+
+div, iframe {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.faleconosco {
+    margin: auto;
+    text-align: left;
+    background-color: #DAA520;
+}

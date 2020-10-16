@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+    background-color: #1C1C1C;
+}
+
+.carros {
+    margin: auto;
+}
+
+#lamborghini {
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 500px;
+}
+
+#nomelamborghini {
+    color: white;
+    float: right;
+    margin-right: 350px;
+    font-size: 25px;
+}
+
+#ferrari {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 500px;
+}
+
+#nomeferrari {
+    color: white;
+    float: right;
+    margin-right: 250px;
+    font-size: 25px;
+}
+
+#bmw {
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 500px;
+}
+
+#nomebmw {
+    color: white;
+    float: right;
+    margin-right: 400px;
+    font-size: 25px;
+}
+
+#bentley {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 500px;
+}
+
+#nomebentley {
+    color: white;
+    float: right;
+    margin-right: 250px;
+    font-size: 25px;
+}
